@@ -342,7 +342,7 @@ int main(int argc, char const *argv[])
 	printf("- 广度优先：逐层扩展访问\n");
 	printf("- 使用队列实现（FIFO）\n");
 	printf("- 可找到最短路径（无权图）\n");
-	printf("- 时间复杂度: O(V²) - 邻接矩阵\n");
+	printf("- 时间复杂度: O(V^2) - 邻接矩阵\n");
 	printf("- 空间复杂度: O(V) - 队列\n");
 
 	printf("\nBFS vs DFS:\n");

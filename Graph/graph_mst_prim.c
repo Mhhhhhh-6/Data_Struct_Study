@@ -227,7 +227,7 @@ int main(int argc, char const *argv[])
 
 	printf("\nPrim算法特点:\n");
 	printf("- 贪心策略：每次选择最小权重边\n");
-	printf("- 时间复杂度: O(V²)\n");
+	printf("- 时间复杂度: O(V^2)\n");  // 修复：避免使用上标字符²导致的字符集转换错误
 	printf("- 适合稠密图\n");
 
 	printf("\n=== 算法完成 ===\n");

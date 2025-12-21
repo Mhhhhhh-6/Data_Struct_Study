@@ -381,7 +381,7 @@ int main(int argc, char const *argv[])
 	printf("\nDFS特点:\n");
 	printf("- 深度优先：沿着一条路径尽可能深入\n");
 	printf("- 使用递归实现（隐式栈）\n");
-	printf("- 时间复杂度: O(V²) - 邻接矩阵\n");
+	printf("- 时间复杂度: O(V^2) - 邻接矩阵\n");
 	printf("- 空间复杂度: O(V) - 递归栈\n");
 
 	printf("\n=== DFS遍历完成 ===\n");
