@@ -18,42 +18,55 @@
 
 ```
 Data_struct_study/
-├── Chained_list/           # 链表基础练习
+├── Chained_list/           # 【主战区】链表实现与练习
 │   ├── test.c             # 链表基础操作
 │   ├── test2.c            # 链表字符型
 │   ├── test3.c            # 链表进阶
-│   └── test4.c            # 链表高级操作
-├── Ordered_list/           # 有序表实现
-│   ├── test.c
-│   └── test2.c
-├── Stack/                  # 栈基础练习
+│   ├── test4.c            # 链表高级操作
+│   └── coin/              # 编译输出
+├── Stack/                  # 【主战区】栈实现与练习
 │   ├── test1.c            # 顺序栈基础
 │   ├── test2.c            # 栈应用
-│   └── test3.c            # 栈进阶
-├── Queue/                  # 队列基础练习
+│   ├── test3.c            # 栈进阶
+│   └── coin/              # 编译输出
+├── Queue/                  # 【主战区】队列实现与练习
 │   ├── test1.c            # 队列基础
 │   ├── test2.c            # 队列操作
 │   ├── test3.c            # 队列应用
-│   └── test4.c            # 队列进阶
-├── Lab_work/               # 核心实验代码（主要学习内容）
-│   ├── Tree/              # 树算法集合
-│   │   └── README.md      # 树模块说明
-│   ├── Graph/             # 图算法集合
-│   │   └── README.md      # 图模块说明
+│   ├── test4.c            # 队列进阶
+│   └── coin/              # 编译输出
+├── Ordered_list/           # 【主战区】有序表实现
+│   ├── test.c             # 有序表基础
+│   ├── test2.c            # 有序表进阶
+│   └── coin/              # 编译输出
+├── Tree/                   # 【主战区】树算法模块
+│   ├── README.md          # 树模块学习指南
+│   └── (待补充树算法代码)
+├── Graph/                  # 【主战区】图算法模块
+│   ├── README.md          # 图模块学习指南
+│   └── (待补充图算法代码)
+├── Teach_test/             # 教学测试代码
+│   └── test1_10_19.c
+├── Lab_work/               # 实验代码（辅助参考）
 │   ├── Sequential_List.c  # 顺序表实现
 │   ├── Linked_List.c      # 链表高级实现
 │   ├── My_Stack.c         # 栈实现（带菜单）
-│   ├── Stack.c            # 栈实现（另一版本）
+│   ├── Stack.c            # 栈实现
 │   ├── Linked_queue.c     # 链式队列
-│   ├── bt1.c              # 二叉树基础实现
+│   ├── bt1.c              # 二叉树基础
 │   ├── BT.h               # 二叉树头文件
-│   ├── Binary_Expression_Tree.c  # 二叉表达式树
-│   ├── graph_net.c        # 图的邻接矩阵实现
+│   ├── Binary_Expression_Tree.c  # 表达式树
+│   ├── graph_net.c        # 图的邻接矩阵
 │   ├── graph_net_other.c  # 图的其他实现
-│   ├── sort.c             # 排序算法集合
-│   └── coin/              # 编译输出目录
+│   ├── sort.c             # 排序算法
+│   └── coin/              # 编译输出
 └── README.md              # 项目说明文档（本文件）
 ```
+
+**说明**：
+- **主战区**（Chained_list、Stack、Queue、Ordered_list、Tree、Graph）：主要学习代码，需详细注释
+- **Lab_work**：实验代码，作为辅助参考
+
 
 ---
 
